@@ -4,7 +4,7 @@ import { getProducts } from "../services/productService";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
-const BASE_URL = 'http://65.0.169.144:8083/back1';
+const BASE_URL = 'http://44.220.161.28:8082/ecommerce';
 
 const Laptops = () => {
   const [products, setProducts] = useState([]);
